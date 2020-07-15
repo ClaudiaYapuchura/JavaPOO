@@ -11,7 +11,7 @@ public class Pessoa {
 	{
 		this.nome = nome;
 		this.endereco = endereco;
-		this.telefone = endereco;
+		this.telefone = telefone;
 	}
 	
 	//Opção 1 - construtor
@@ -26,7 +26,7 @@ public class Pessoa {
 		
 	}
 	
-	//Seletores e modificadores
+	//Métodos seletores e modificadores
 	public String getNome() {
 		return nome;
 	}
